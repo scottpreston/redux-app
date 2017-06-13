@@ -1,0 +1,33 @@
+{
+  "name": "redux-app",
+  "version": "1.0.0",
+  "description": "a sample project to clone when you are starting a new react/redux project",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "css-loader": "^0.26.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottpreston/redux-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottpreston/redux-app/issues"
+  },
+  "homepage": "https://github.com/scottpreston/redux-app#readme",
+  "scripts": {
+    "start": "http-server -o",
+    "prestart": "npm run pack",
+    "pack": "webpack",
+    "watch": "webpack --watch"
+  }
+}
